@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #e3e3e3;
+    font-size: medium;
+    font-weight: 510;
+}
+
+
+.nav-item .nav-link{
+    text-transform: uppercase;
+    color: white !important;
+    font-family: 'Poppins',sans-serif !important;
+}
+
+.nav-item a:hover{
+    color: rgba(177, 177, 177, 0.9) !important;
+}
+
+.navbar-brand{
+	font-family: 'Roboto Condensed',sans-serif !important;
+}
+
+.security-section{
+    background: #fce8e5;
+}
+
+.section-title{
+    text-transform: uppercase !important;
+    text-align: left;
+}
+
+.rowmid{
+	height: 80vh;
+}
+
+.welcome-section{
+	font-family: 'Roboto Condensed',sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+.cover-img{
+    height: 100vh;
+    background-image: url(./images/pexels-anna-shvets-4482900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#ui{
+    background-color: rgba(87, 87, 87, 0.9);
+    padding: 2rem;
+    color: white;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#ui .form-control{
+    font-style: 'Poppins' , sans-serif;
+}
+
+@media(max-width:768px){
+	.rowmid{
+		height: 200vh;
+	}
+	
+}
+
+
+
+
